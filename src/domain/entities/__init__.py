@@ -1,1 +1,1 @@
-from .add_account import AddAccount
+from .add_account import AddAccount, AddAccountParams
