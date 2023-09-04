@@ -1,0 +1,20 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Mades Almeida", email = "mades.eladrian@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pre-commit>=3.4.0",
+    "mypy>=1.5.1",
+    "flake8>=6.1.0",
+    "pytest>=7.4.1",
+    "pytest-cov>=4.1.0",
+]
